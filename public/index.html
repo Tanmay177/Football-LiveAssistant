@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIFA Watcher ⚽ — World Cup 2026 Live Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>⚽Tanmay's FIFA Watcher v2</h1>
+        <p>Ask anything about live World Cup 2026 matches.</p>
+      </header>
+
+      <section id="chat" class="chat" aria-live="polite">
+        <div class="msg assistant">
+          Hi! Ask me about a live match — e.g. <em>"What's the score in the Brazil game?"</em>
+        </div>
+      </section>
+
+      <form id="form" class="composer">
+        <input
+          id="input"
+          type="text"
+          placeholder="What's the score in the Brazil game?"
+          autocomplete="off"
+          required
+        />
+        <button id="send" type="submit">Ask</button>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

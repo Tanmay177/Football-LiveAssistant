@@ -1,0 +1,16 @@
+{
+  "name": "fifa-watcher",
+  "version": "1.0.0",
+  "description": "FIFA World Cup 2026 live match assistant powered by Claude",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "dotenv": "^17.0.0",
+    "express": "^4.21.0"
+  }
+}
